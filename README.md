@@ -29,3 +29,9 @@ Profundizar dev container
 Github copilot
 MS 365 copilot
 Notion
+
+
+### complementar codespaces:
+https://dotfiles.github.io/tutorials/
+https://code.visualstudio.com/docs/editor/settings-sync
+https://docs.github.com/en/codespaces/customizing-your-codespace
