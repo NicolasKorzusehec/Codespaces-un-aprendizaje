@@ -35,3 +35,14 @@ Notion
 https://dotfiles.github.io/tutorials/
 https://code.visualstudio.com/docs/editor/settings-sync
 https://docs.github.com/en/codespaces/customizing-your-codespace
+
+
+
+# Relacion entre codespaces, contenedores, deploy
+ALgun punteo de cosas interesantes de la docu de codespaces:
+Git partial clone y Shallow clone
+
+Un detalle: para implementar un codespace que ejecute django la plantilla especifica en su dev container los hostrequirement, a lo cual figura cpus: 4 (cores). Es valido reducirlo a 2? fuera de velocidad tiene otras consecuencias?
+
+## Git Hooks: 
+Dentro del devcontainer.json se especifican varias cosas como por ejemplo la VM que ocupara el codespace (Hay mejores? y costos agregados?), entiendase
