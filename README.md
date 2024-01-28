@@ -194,3 +194,4 @@ Entrar a settings del perfil de github
 Ir a la seccion de Codespaces.
 Under Dotfiles, select Automatically install dotfiles so that GitHub Codespaces automatically installs your dotfiles into every new codespace you create.
 Click Select repository and then choose your current skills working repository as the repository from which to install dotfiles. En este caso elegi el repo de codespace que ya venia modificando para que quede como mi template de un codespace.
+https://docs.github.com/en/codespaces/setting-your-user-preferences/personalizing-github-codespaces-for-your-account#dotfiles
