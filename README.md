@@ -19,6 +19,23 @@ Con lo cual utilizando la menor cantidad de recursos (8gb RAM, 32gb Almacenamien
 ## Extensiones 
 Una vez que se inicializa el VS Code Web, si no se instancia el codespace no se puede descargar casi ninguna extension, ni siquiera algo tan basico como live server. 
 
+## Superposicion de caracteres escribiendo
+Este es un problema interesante, cuando usamos vs code web desde la tablet (No ocurre en la compu) surge algo raro, mientras escribimos no podemos ver el ultimo caracter tipiado y a veces incluso se ve una superposicion de caracteres hasta que escribimos un nuevo caracter o insertamoss un espacio. Con lo cual complica mucho la legibilidad mientras trabajamos.
+
+### Causa
+Segun Bing, esto puede deberse a un problema conocido con el cliente web de VS Code en algunos exploradores que no estan basados en chromium. Es decir, lo vincula con algo que tenga que ver con el explorador o como VS Code Web trabaja en el explorador, consistente con que no ocurra en la computadora y si desde la tablet que puede contar con alguna variacion en su codificacion.
+
+### Solucion
+En principio desde el navegador, tanto de chrome como el de samsung, simplemente con ponerlo en la vista para escritorio se soluciona.
+
+#### Complemento al problema
+Bing me brindo este link muy interesante sobre problemas con el cliente web de VS Code.
+https://docs.github.com/es/codespaces/troubleshooting/troubleshooting-github-codespaces-clients
+
+
+## Mala funcionalidad a la hora de proponer sugerencias de codigo
+En particular en html prob, resulta que comienza el proceso de proponer sugerencias pero queda en la nada. Pareciera tener que ver con algo relacionado al problema anterior.
+
 ### Investigar:
 
 - VS Code Web, que fallas tiene y como solucionarlas, desde la tablet escribe raro.
@@ -162,3 +179,4 @@ Next lets add some code to run upon creation of the codespace!
 
 1. Verify your codespace is running, as you did previously.
 1. Verify the `codespace.md` file now has the text `Writing code upon codespace creation!`.
+
