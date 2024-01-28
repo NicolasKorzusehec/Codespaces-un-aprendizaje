@@ -23,6 +23,17 @@ Una vez que se inicializa el VS Code Web, si no se instancia el codespace no se 
 
 - VS Code Web, que fallas tiene y como solucionarlas, desde la tablet escribe raro.
 - Impactar un template de un codespace de django en el homebanking y la documentacion relacionada. En la que presenta github simplifica mucho la inicializacion de la app. ahorra muchas pasos y establece acciones automaticas para ejecutar la app sin tantos pasos previos desde un json.
+
+
+### git
+Use the VS Code terminal to commit the file change by entering the following commit message:
+```shell
+git commit -a -m "Adding hello from the codespace!"
+```
+Push the changes back to your repository. From the VS Code terminal, enter:
+```shell
+git push
+```
 - Cuantos codespaces puedo crear, como crear plantillas y customizarlas con las extensiones predefinidas.
 Profundizar dev container
 - Que limitaciones hay en cuanto al uso y cuando empieza a ser pago. Github students y codesspaces y github pro.
