@@ -182,3 +182,15 @@ Ejecutar codigo al crear un codespace
 1. Verify your codespace is running, as you did previously.
 1. Verify the `codespace.md` file now has the text `Writing code upon codespace creation!`.
 
+## Dotfiles para configurar un codespace
+When using any development environment, customizing the settings and tools to your preferences and workflows is an important step. GitHub Codespaces offers two main ways of personalizing your codespace: Settings Sync with VS Code and dotfiles.
+
+Dotfiles will be the focus of this activity.
+
+What are dotfiles? Dotfiles are files and folders on Unix-like systems starting with . that control the configuration of applications and shells on your system. You can store and manage your dotfiles in a repository on GitHub.
+
+### Enable a dotfile for your codespace
+Entrar a settings del perfil de github
+Ir a la seccion de Codespaces.
+Under Dotfiles, select Automatically install dotfiles so that GitHub Codespaces automatically installs your dotfiles into every new codespace you create.
+Click Select repository and then choose your current skills working repository as the repository from which to install dotfiles. En este caso elegi el repo de codespace que ya venia modificando para que quede como mi template de un codespace.
