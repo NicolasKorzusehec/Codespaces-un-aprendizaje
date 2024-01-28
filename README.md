@@ -27,6 +27,7 @@ Segun Bing, esto puede deberse a un problema conocido con el cliente web de VS C
 
 ### Solucion
 En principio desde el navegador, tanto de chrome como el de samsung, simplemente con ponerlo en la vista para escritorio se soluciona.
+Se puede directamente predefinir el modo escritorio para los sitios de github, tanto github.com y github.dev
 
 #### Complemento al problema
 Bing me brindo este link muy interesante sobre problemas con el cliente web de VS Code.
